@@ -1,0 +1,3 @@
+"D:\ProgramFiles\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\C_point.dir/objects.a
+D:\ProgramFiles\MinGW\bin\ar.exe cr CMakeFiles\C_point.dir/objects.a @CMakeFiles\C_point.dir\objects1.rsp
+D:\ProgramFiles\MinGW\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\C_point.dir/objects.a -Wl,--no-whole-archive  -o C_point.exe -Wl,--out-implib,libC_point.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\C_point.dir\linklibs.rsp
